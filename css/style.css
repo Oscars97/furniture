@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  /* background-position-y: -200px; */
+  background-size: cover;
+  position: relative;
+}
+main {
+  position: relative;
+}
+.main-container {
+  width: 50%;
+  height: 70vh;
+  transform: translate(50%, 20%);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
+}
+.main-container .info {
+  background-color: rgba(255, 255, 255, 0.576);
+  text-align: justify;
+  padding-top: 13%;
+  font-size: 1.2rem;
+}
+.main-container .info strong {
+  color: rgb(201, 148, 49);
+  animation: title 2s;
+  font-family: "Vidaloka", serif;
+}
+.main-container .title {
+  background-color: rgba(255, 255, 255, 0.213);
+  color: rgb(201, 148, 49);
+  font-weight: bold;
+  font-style: bold;
+  padding-top: 25%;
+  text-align: center;
+  font-family: "Vidaloka", serif;
+}
+.title h1 {
+  font-size: 3.4rem;
+}
+.contact-container {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  background-color: rgba(255, 255, 255, 0.213);
+  width: 50%;
+  height: 70vh;
+  transform: translate(50%, 20%);
+  transform: translate(50%, 20%);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
+}
+.main-container h1 {
+}
+.hidden {
+  display: none;
+}
+@keyframes title {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(28deg);
+  }
+  100% {
+    transform: translateX(270deg);
+  }
+}
