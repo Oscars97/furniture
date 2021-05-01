@@ -12,11 +12,12 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
   </head>
   <body>
     <header></header>
     <main>
-        <div class="main-container row">
+        <div id="main" class="main-container row">
             <div class="col-6 title">
                 <h1>FURNITURE CR</h1>
             </div>
@@ -26,8 +27,24 @@
             <a href="#contact-section" id="btn-contact" class="btn btn-success btn-block">Contact Us!</a>
             </div>
         </div>
-        <div id="contact-section" class="contact-container hidden"></div>
+        <div id="contact-section" class="contact-container hidden">
+            
+            <form class="contact-form" id="contact-form">
+                <h1>You can contact us using this form:</h1>
+                <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Email address</label> -->
+                  <input id="email" required=true placeholder="Email" type="email" class="form-control" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="form-group">
+                    <!-- <label for="exampleInputEmail1">Name</label> -->
+                    <input id="name" required=true placeholder="Name" spellcheck="true" type="text" class="form-control" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-success btn-block btn-send">Submit</button>
+              </form>
+        </div>
     </main>
+    <!-- <button class="hidden" id="come-back"><i class="fas fa-arrow-up"></i></button> -->
     <footer>
         
     </footer>
@@ -44,5 +61,9 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="sweetalert2.all.min.js"></script>
+<!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+<script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
   </body>
 </html>

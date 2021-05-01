@@ -54,7 +54,7 @@ main {
 .contact-container {
   margin-top: 20%;
   margin-bottom: 10%;
-  background-color: rgba(255, 255, 255, 0.213);
+  background-color: rgba(255, 255, 255, 0.652);
   width: 50%;
   height: 70vh;
   transform: translate(50%, 20%);
@@ -62,11 +62,26 @@ main {
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
 }
+.contact-form{
+    padding: 5%;
+    padding-top: 10%;
+    text-align: center
+}
+.contact-form .btn-send{
+
+}
+
 .main-container h1 {
+}
+.come-back{
+    position:absolute;
+    right: 0.1%;
+    bottom: 0.1%
 }
 .hidden {
   display: none;
 }
+
 @keyframes title {
   0% {
     opacity: 0.5;
