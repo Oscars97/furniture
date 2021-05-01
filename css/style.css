@@ -30,13 +30,13 @@ main {
 }
 .main-container .info {
   background-color: rgba(255, 255, 255, 0.576);
-  text-align: justify;
+  text-align: center;
   padding-top: 13%;
   font-size: 1.2rem;
 }
 .main-container .info strong {
   color: rgb(201, 148, 49);
-  animation: title 2s;
+  animation: title 2s infinite;
   font-family: "Vidaloka", serif;
 }
 .main-container .title {
@@ -58,7 +58,6 @@ main {
   width: 50%;
   height: 70vh;
   transform: translate(50%, 20%);
-  transform: translate(50%, 20%);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.54);
@@ -70,7 +69,7 @@ main {
 }
 @keyframes title {
   0% {
-    opacity: 0;
+    opacity: 0.5;
   }
   50% {
     transform: rotate(28deg);
