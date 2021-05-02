@@ -52,9 +52,9 @@ main {
   font-size: 3.4rem;
 }
 .contact-container {
-  margin-top: 20%;
+  margin-top: 15%;
   margin-bottom: 10%;
-  background-color: rgba(255, 255, 255, 0.652);
+  background-color: rgba(255, 255, 255, 0.357);
   width: 50%;
   height: 70vh;
   transform: translate(50%, 20%);
@@ -64,7 +64,7 @@ main {
 }
 .contact-form{
     padding: 5%;
-    padding-top: 10%;
+    padding-top: 3%;
     text-align: center
 }
 .contact-form .btn-send{
