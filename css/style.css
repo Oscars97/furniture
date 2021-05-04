@@ -129,23 +129,23 @@ main {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.54);
   }
   .main-container .info {
-    background-color: rgba(255, 255, 255, 0.576);
+    background-color: rgba(255, 255, 255, 0);
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     transform: translate(0%, 0%);
-    height: 85vh;
-    width: 100% !important;
+    height: 90vh;
+    width: 420px !important;
     position: absolute;
     left: 30%;
   }
   
   .main-container .title {
-    display: none;
+    opacity: 0;
     width: 20px !important;
   }
  
   .contact-container {
-    margin-top: 35%;
+    margin-top: 40%;
     margin-bottom: 10%;
     background-color: rgba(255, 255, 255, 0.357);
     width: 85%;
