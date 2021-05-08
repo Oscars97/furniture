@@ -1,3 +1,3 @@
-# furniture
-##DEMO: 
+
+## DEMO: 
 [FURNITURE CR](https://furniture-amber.vercel.app/)
